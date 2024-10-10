@@ -1,3 +1,4 @@
+// SHINTA
 package com.example.belajar;
 
 import android.os.Bundle;
