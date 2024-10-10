@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- Izin untuk Akses Lokasi dan Internet -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Belajar"
+        tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <!-- Masukkan API Key Google Maps di sini -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBnBY-f5_MWOMUQUAa4QtYrNS3h8eheojE"/>
+
+
+        <activity
+            android:name=".LBS33"
+            android:exported="false"
+            android:label="@string/title_activity_lbs33" />
+
+        <activity
+            android:name=".Welcome"
+            android:exported="false" />
+        <activity
+            android:name=".BenuaAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".RecycleView"
+            android:exported="false" />
+        <activity
+            android:name=".Preferences30"
+            android:exported="false" />
+        <activity
+            android:name=".KonsepPreferences30"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateBiodata"
+            android:exported="false" />
+        <activity
+            android:name=".LihatBiodata"
+            android:exported="false" />
+        <activity
+            android:name=".BuatBiodata"
+            android:exported="false" />
+        <activity
+            android:name=".ImplementasiSQLite"
+            android:exported="false" />
+        <activity
+            android:name=".DataHelper"
+            android:exported="false" />
+        <activity
+            android:name=".ManagementFile2"
+            android:exported="false" />
+        <activity
+            android:name=".ManagementFile1"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntentExplicit"
+            android:exported="false" />
+        <activity
+            android:name=".IntentImplicit"
+            android:exported="false" />
+        <activity
+            android:name=".SecondFragment"
+            android:exported="false" />
+        <activity
+            android:name=".FirstFragment"
+            android:exported="false" />
+        <activity
+            android:name=".Fragmentt"
+            android:exported="false" />
+        <activity
+            android:name=".AutoCompleteTextView"
+            android:exported="true" />
+        <activity
+            android:name=".Stringg"
+            android:exported="false" />
+        <activity
+            android:name=".HorizontalScrollVieww"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayout9"
+            android:exported="false" />
+        <activity
+            android:name=".MaterialDesign"
+            android:exported="false" />
+        <activity
+            android:name=".TabelLayout"
+            android:exported="false" />
+        <activity
+            android:name=".ConstraintLayout"
+            android:exported="false" />
+        <activity
+            android:name=".FrameLayout"
+            android:exported="false" />
+        <activity
+            android:name=".RelativeLayout"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollView"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
