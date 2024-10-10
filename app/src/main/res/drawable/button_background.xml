@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#004D40" /> <!-- Warna saat tombol ditekan -->
+            <corners android:radius="8dp" /> <!-- Membuat sudut melengkung -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/buttonColor" /> <!-- Warna tombol default -->
+            <corners android:radius="8dp" /> <!-- Membuat sudut melengkung -->
+        </shape>
+    </item>
+</selector>
