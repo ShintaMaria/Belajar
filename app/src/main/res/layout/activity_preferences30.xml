@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR AKUN"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="36dp" />
+
+    <!-- Label dan Field untuk Nama -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="start" /> <!-- Rata kiri -->
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textColor="@color/primaryText"
+        android:textSize="16sp" />
+
+    <!-- Label dan Field untuk Password -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="start" /> <!-- Rata kiri -->
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textColor="@color/primaryText"
+        android:textSize="16sp" />
+
+    <!-- Label dan Field untuk Jenis Kelamin -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="start" /> <!-- Rata kiri -->
+    <EditText
+        android:id="@+id/edtJK"
+        android:hint="L atau P"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textColor="@color/primaryText"
+        android:textSize="16sp" />
+
+    <!-- Label dan Field untuk Tanggal Lahir -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="start" /> <!-- Rata kiri -->
+    <EditText
+        android:id="@+id/edtTanggalLahir"
+        android:hint="dd-mm-yyyy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_calendar"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textColor="@color/primaryText"
+        android:textSize="16sp" />
+
+    <!-- Label dan Field untuk Alamat -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="start" /> <!-- Rata kiri -->
+    <EditText
+        android:id="@+id/edtAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textColor="@color/primaryText"
+        android:textSize="16sp" />
+
+    <!-- Label dan Field untuk No Telepon -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Telepon"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="start" /> <!-- Rata kiri -->
+    <EditText
+        android:id="@+id/edtNoTelpon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textColor="@color/primaryText"
+        android:textSize="16sp" />
+
+    <!-- Tombol Daftar -->
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00796B"
+        android:layout_marginTop="60dp" /> <!-- Tambahkan margin atas untuk menurunkan tombol -->
+
+    <!-- Link untuk masuk -->
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah punya akun? Masuk sekarang"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
