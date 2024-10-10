@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Belajar</string>
+    <string name="title_activity_coba_peta">CobaPeta</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyB1tFUrIhziIr_hB6gpy02uwU5GTJB6Vlc
+    </string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
+
