@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp">
+<!--        <TextView-->
+<!--            android:id="@+id/header_title"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Scroll View"-->
+<!--            android:textSize="20sp"-->
+<!--            android:padding="12dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:background="@color/colorPrimary"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="80dp"-->
+<!--            android:text="ScrollView"-->
+<!--            android:textSize="25dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:id="@+id/loginscrn"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:text="Welcome to Tutlane"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:id="@+id/fstTxt"/>-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="3dp"
+            android:text="Linear Layout"
+            android:id="@+id/buttonTwo"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="3dp"
+            android:text="Relative Layout"
+            android:id="@+id/buttonThree"/>
+
+        <Button
+            android:id="@+id/buttonFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Constraint Layout" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="3dp"
+            android:text="Frame Layout"
+            android:id="@+id/buttonFive"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="3dp"
+            android:text="Table Layout"
+            android:id="@+id/buttonSix"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="3dp"
+            android:text="Material Design"
+            android:id="@+id/buttonSeven"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="3dp"
+            android:text="Scroll View"
+            android:id="@+id/buttonEight"/>
+
+    </LinearLayout>
+</HorizontalScrollView>
