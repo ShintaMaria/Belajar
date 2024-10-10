@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".LinearLayout9">
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/design_default_color_primary_dark"/>
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="to"
+        android:minHeight="48dp"/>
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="subject"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:id="@+id/message"
+        android:hint="message"/>
+    <Button
+        android:id="@+id/send"
+        android:layout_width="122dp"
+        android:layout_height="69dp"
+        android:layout_gravity="right"
+        android:text="send"
+        tools:ignore="Rt1Hardcoded"/>
+</LinearLayout>
