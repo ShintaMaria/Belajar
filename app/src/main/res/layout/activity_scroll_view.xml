@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="           BKPM Workshop Mobile Applications"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/loginscrn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Shinta Maria"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="(E41231404)"
+            android:layout_gravity="center"/>
+
+        <!-- Ganti android:layout_width menjadi match_parent -->
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 9 (Linear Layout)"
+            android:id="@+id/buttonTwo"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 9 (Relative Layout)"
+            android:id="@+id/buttonThree"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 10 (Constrain Layout)"
+            android:id="@+id/buttonFour"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 10 (Frame Layout)"
+            android:id="@+id/buttonFive"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 11 (Tabel Layout)"
+            android:id="@+id/buttonSix"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 11 (Material Design)"
+            android:id="@+id/buttonSeven"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 12 (Horizontal Scroll View)"
+            android:id="@+id/buttonEight"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 13 - Acara 14 (List View)"
+            android:id="@+id/buttonNine"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 13 - Acara 14 (Recycle View)"
+            android:id="@+id/button17"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 15 - Acara 16 (Auto Complete Text View)"
+            android:id="@+id/buttonTen"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 17 - Acara 20 (Fragment)"
+            android:id="@+id/button11"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 21 - Acara 22 (Intent Implicit)"
+            android:id="@+id/button12"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 23 - Acara 24 (Intent Explicit)"
+            android:id="@+id/button13"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 25 - Acara 27 (Manajement File)"
+            android:id="@+id/button14"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 28 (Implementasi SQLite)"
+            android:id="@+id/button15"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 29 - Acara 32 (Konsep Preferences)"
+            android:id="@+id/button16"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 33 - Acara (Location Based Service)"
+            android:id="@+id/button18"/>
+
+
+    </LinearLayout>
+</ScrollView>
