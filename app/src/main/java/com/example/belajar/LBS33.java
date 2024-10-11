@@ -102,16 +102,16 @@ public class LBS33 extends FragmentActivity implements OnMapReadyCallback {
         @Override
         public void onLocationChanged(Location loc) {
             // jika lokasi berubah, tampilkan pesan toast dengan lat dan long baru
-            if (loc != null) {
-                Toast.makeText(getBaseContext(), "Location changed:Lat: \"" + loc.getLatitude() + "\" Lng: \"" + loc.getLongitude(), Toast.LENGTH_SHORT).show();
-
-                // pindahkan kamera peta ke lokasi baru
-                LatLng p = new LatLng(loc.getLatitude(), loc.getLongitude());
-                if (mMap != null) {
-                    mMap.moveCamera(CameraUpdateFactory.newLatLng(p));
-                    mMap.animateCamera(CameraUpdateFactory.zoomTo(7));
-                }
-            }
+//            if (loc != null) {
+//                Toast.makeText(getBaseContext(), "Location changed:Lat: \"" + loc.getLatitude() + "\" Lng: \"" + loc.getLongitude(), Toast.LENGTH_SHORT).show();
+//
+//                // pindahkan kamera peta ke lokasi baru
+//                LatLng p = new LatLng(loc.getLatitude(), loc.getLongitude());
+//                if (mMap != null) {
+//                    mMap.moveCamera(CameraUpdateFactory.newLatLng(p));
+//                    mMap.animateCamera(CameraUpdateFactory.zoomTo(7));
+//                }
+//            }
         }
 
         @Override
