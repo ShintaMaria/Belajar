@@ -1,32 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Background transparent -->
-    <item android:drawable="@android:color/transparent"/>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:autoMirrored="true" android:height="24dp" android:tint="#000000" android:viewportHeight="24" android:viewportWidth="24" android:width="24dp">
 
-    <!-- First line -->
-    <item>
-        <shape android:shape="rectangle">
-            <size android:width="40dp" android:height="4dp"/> <!-- Width and height for the line -->
-            <solid android:color="#FF6200EE"/> <!-- Color for the first line -->
-            <padding android:left="8dp" android:right="8dp"/> <!-- Optional padding for aesthetics -->
-        </shape>
-    </item>
+    <path android:fillColor="@android:color/white" android:pathData="M4,10.5c-0.83,0 -1.5,0.67 -1.5,1.5s0.67,1.5 1.5,1.5 1.5,-0.67 1.5,-1.5 -0.67,-1.5 -1.5,-1.5zM4,4.5c-0.83,0 -1.5,0.67 -1.5,1.5S3.17,7.5 4,7.5 5.5,6.83 5.5,6 4.83,4.5 4,4.5zM4,16.5c-0.83,0 -1.5,0.68 -1.5,1.5s0.68,1.5 1.5,1.5 1.5,-0.68 1.5,-1.5 -0.67,-1.5 -1.5,-1.5zM7,19h14v-2L7,17v2zM7,13h14v-2L7,11v2zM7,5v2h14L21,5L7,5z"/>
 
-    <!-- Second line -->
-    <item android:top="10dp"> <!-- Space between lines -->
-        <shape android:shape="rectangle">
-            <size android:width="40dp" android:height="4dp"/> <!-- Width and height for the line -->
-            <solid android:color="#FF6200EE"/> <!-- Color for the second line -->
-            <padding android:left="8dp" android:right="8dp"/> <!-- Optional padding for aesthetics -->
-        </shape>
-    </item>
-
-    <!-- Third line -->
-    <item android:top="10dp"> <!-- Space between lines -->
-        <shape android:shape="rectangle">
-            <size android:width="40dp" android:height="4dp"/> <!-- Width and height for the line -->
-            <solid android:color="#FF6200EE"/> <!-- Color for the third line -->
-            <padding android:left="8dp" android:right="8dp"/> <!-- Optional padding for aesthetics -->
-        </shape>
-    </item>
-</layer-list>
+</vector>
