@@ -1,4 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Application name -->
+    <string name="app_name">Belajar</string>
+
+    <!-- Sensor labels -->
+    <string name="label_brightness">Level : %1$.2f lux</string>
+    <string name="label_proximity">Object : %1$.2f cm</string>
+
+    <!-- Activity titles -->
+    <string name="title_activity_coba_peta">CobaPeta</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_lbs">LBS</string>
+    <string name="title_activity_lbs33">LBS33</string>
+
+    <!-- Google Maps API Key -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyB1tFUrIhziIr_hB6gpy02uwU5GTJB6Vlc
+    </string>
+
+    <!-- Country list array -->
     <string-array name="countries_arry">
         <item>Afghanistan</item>
         <item>Albania</item>
@@ -21,8 +41,4 @@
         <item>Belarus</item>
         <item>Belgium</item>
     </string-array>
-
-    <string name="title_activity_lbs">LBS</string>
-    <string name="title_activity_lbs33">LBS33</string>
-
 </resources>
