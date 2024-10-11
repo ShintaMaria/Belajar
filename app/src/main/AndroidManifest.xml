@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
+<!--SENSOR-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
 
     <!-- Izin untuk Akses Lokasi dan Internet -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -19,28 +21,31 @@
         android:theme="@style/Theme.Belajar"
         tools:targetApi="31">
 
-        <!--
-             TODO: Before you run your application, you need a Google Maps API key.
 
-             To get one, follow the directions here:
+        <!-- Deklarasi aktivitas lainnya -->
+        <activity
+            android:name=".ProximitySensorActivity35"
+            android:exported="false" />
+        <activity
+            android:name=".AllSensorActivity35"
+            android:exported="false" />
+        <activity
+            android:name=".LightSensorActivity35"
+            android:exported="false" />
+        <activity
+            android:name=".AksesSensor35"
+            android:exported="false" />
 
-                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-
-             Once you have your API key (it starts with "AIza"), define a new property in your
-             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-        -->
         <!-- Masukkan API Key Google Maps di sini -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBnBY-f5_MWOMUQUAa4QtYrNS3h8eheojE"/>
+            android:value="AIzaSyBnBY-f5_MWOMUQUAa4QtYrNS3h8eheojE" />
 
-
+        <!-- Aktivitas lain -->
         <activity
             android:name=".LBS33"
             android:exported="false"
             android:label="@string/title_activity_lbs33" />
-
         <activity
             android:name=".Welcome"
             android:exported="false" />
@@ -122,15 +127,16 @@
         <activity
             android:name=".RelativeLayout"
             android:exported="false" />
+
+        <!-- Aktivitas ScrollView -->
         <activity
             android:name=".ScrollView"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+    </application>
 </manifest>
