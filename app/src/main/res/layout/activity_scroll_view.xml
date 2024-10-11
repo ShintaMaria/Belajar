@@ -189,8 +189,17 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
             android:layout_marginTop="60dp"
-            android:text="Acara 33 - Acara (Location Based Service)"
+            android:text="Acara 33 - Acara 34 (Location Based Service)"
             android:id="@+id/button18"/>
+
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 35 - Acara 36 (Akses Sensor)"
+            android:id="@+id/button19"/>
 
 
     </LinearLayout>
