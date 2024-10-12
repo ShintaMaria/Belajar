@@ -4,6 +4,7 @@
 <!--SENSOR-->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <!-- Izin untuk Akses Lokasi dan Internet -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -27,10 +28,10 @@
             android:name=".ProximitySensorActivity35"
             android:exported="false" />
         <activity
-            android:name=".AllSensorActivity35"
+            android:name=".AllSensor35"
             android:exported="false" />
         <activity
-            android:name=".LightSensorActivity35"
+            android:name=".LightSensor35"
             android:exported="false" />
         <activity
             android:name=".AksesSensor35"
