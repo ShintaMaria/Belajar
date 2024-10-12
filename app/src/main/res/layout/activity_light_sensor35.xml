@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LightSensorActivity35">
+    tools:context=".LightSensor35">
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,27 +20,23 @@
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline5"
-        ></TextView>
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
-    <com.jjoe64.graphview.GraphView
-        android:id="@+id/graph_light"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart = "8dp"
-        android:layout_marginTop = "16dp"
-        android:layout_marginEnd = "8dp"
-        android:layout_marginBottom = "32dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_brightness_info"/>
+    <com.example.belajar.CustomGraphView35
+        android:id="@+id/custom_graph"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+    android:layout_margin="16dp"
+    android:layout_marginTop="16dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/txt_brightness_info" />
 
     <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:id="@+id/guideline5"
-        app:layout_constraintGuide_percent="0.12"
-        ></androidx.constraintlayout.widget.Guideline>
+        app:layout_constraintGuide_percent="0.04" />
 </androidx.constraintlayout.widget.ConstraintLayout>
