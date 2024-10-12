@@ -28,10 +28,10 @@ public class AksesSensor35 extends AppCompatActivity implements View.OnClickList
     public void onClick(View view) {
         int id = view.getId();
         if (id == R.id.img_list_all_sensor){
-            Intent intentAll = new Intent(this, AllSensorActivity35.class);
+            Intent intentAll = new Intent(this, AllSensor35.class);
             startActivity(intentAll);
         } else if (id == R.id.img_ligh_sensor){
-            Intent intentLight = new Intent(this, LightSensorActivity35.class);
+            Intent intentLight = new Intent(this, LightSensor35.class);
             startActivity(intentLight);
         } else if (id == R.id.img_proximity_sensor){
             Intent intentProximity = new Intent(this, ProximitySensorActivity35.class);
