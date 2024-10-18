@@ -61,7 +61,7 @@ public class LightSensor35 extends AppCompatActivity implements SensorEventListe
             // Mainkan audio berdasarkan intensitas cahaya
             if (brightnessValue == 0) {
                 playAudio("cahaya_gelap.mp3");
-            } else if (brightnessValue > 150) {
+            } else if (brightnessValue > 100) {
                 playAudio("cahaya_terang.mp3");
             }
         }
