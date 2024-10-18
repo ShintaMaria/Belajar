@@ -70,7 +70,7 @@ public class CustomGraphView35 extends View {
 
         // Skala untuk menggambar grafik
         float scaleX = width / (float) (dataPoints.length - 1);
-        float scaleY = height / 900f; // Misalnya grafik memiliki range 0-900
+        float scaleY = height / 500f; // Misalnya grafik memiliki range 0-900
 
         // Gambar garis antar titik
         for (int i = 0; i < dataPoints.length - 1; i++) {
