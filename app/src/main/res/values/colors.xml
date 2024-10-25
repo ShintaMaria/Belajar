@@ -17,4 +17,7 @@
     <color name="buttonColor">#00796B</color> <!-- Warna tombol -->
     <color name="buttonText">#FFFFFF</color> <!-- Warna teks pada tombol -->
     <color name="primaryBackground">#FFFFFF</color> <!-- Warna latar belakang untuk welcome text -->
+    <color name="colorRating">#FBC02D</color>
+    <color name="colorAccent">#52a2f7</color>
+    <color name="colorDark">#414449</color>
 </resources>
