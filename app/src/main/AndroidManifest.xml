@@ -19,39 +19,38 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Belajar"
         tools:targetApi="31">
+        <activity
+            android:name=".MainActivity37"
+            android:exported="false" />
+         <activity
+         android:name=".MovieDBActivity37"
+         android:exported="false" />
+         <activity
+         android:name=".MovieAdapter37"
+         android:exported="false" />
+         <activity
+         android:name=".ModelMovie37"
+         android:exported="false" />
+         <activity
+         android:name=".JSONObjectRequestListener37"
+         android:exported="false" />
+         <activity
+         android:name=".JsonParseActivity37"
+         android:exported="false" />
+         <activity
+         android:name=".HttpHandle37"
+         android:exported="false" />
+         <activity
+         android:name=".FragmentMovie37"
+         android:exported="false" />
+         <activity
+         android:name="ApiEndPoint37"
+         android:exported="false" />
+         <activity
+         android:name=".JsonAPIActivity37"
+         android:exported="false" />
 
-<!--        <activity-->
-<!--            android:name=".MovieDBActivity37"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".MovieAdapter37"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".ModelMovie37"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".JSONObjectRequestListener37"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".JsonParseActivity37"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".HttpHandle37"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".FragmentMovie37"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name="ApiEndPoint37"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".JsonAPIActivity37"-->
-<!--            android:exported="false" />-->
 
-<!--        <activity-->
-<!--            android:name=".MainActivity37"-->
-<!--            android:exported="false" />-->
-        <!-- Deklarasi aktivitas lainnya -->
         <activity
             android:name=".ProximitySensorActivity35"
             android:exported="false" />
@@ -64,9 +63,11 @@
         <activity
             android:name=".AksesSensor35"
             android:exported="false" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBnBY-f5_MWOMUQUAa4QtYrNS3h8eheojE" />
+
         <activity
             android:name=".LBS33"
             android:exported="false"
