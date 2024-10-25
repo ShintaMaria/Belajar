@@ -25,6 +25,7 @@ public class LBS33 extends FragmentActivity implements OnMapReadyCallback {
     private LocationManager lm;
     private LocationListener locationListener;
     private boolean permissionGranted = false;
+    private boolean locationShown = false; // variabel untuk melacak apakah toast sudah ditampilkan
     private static final int REQUEST_COURSE_ACCESS = 1;
 
     @Override
@@ -41,6 +42,7 @@ public class LBS33 extends FragmentActivity implements OnMapReadyCallback {
             mapFragment.getMapAsync(this);
         }
     }
+
     @Override
     public void onPause() {
         super.onPause();
@@ -49,21 +51,18 @@ public class LBS33 extends FragmentActivity implements OnMapReadyCallback {
             lm.removeUpdates(locationListener);
         }
     }
+
     @Override
     public void onResume() {
         super.onResume();
         // memeriksa izin lokasi ketika aplikasi dilanjutkan
         checkLocationPermission();
     }
+
     @Override
     public void onMapReady(GoogleMap googleMap) {
         // peta siap digunakan, simpan referensi ke objek googlemap
         mMap = googleMap;
-
-        // koordinat politeknik negeri jember kampus 3 nganjuk
-        LatLng Nganjuk = new LatLng(-7.594718459500081, 111.89521627966471);
-        mMap.addMarker(new MarkerOptions().position(Nganjuk).title("Politeknik Negeri Jember Kampus 3 Nganjuk"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Nganjuk, 10));
 
         // aktifkan kontrol zoom pada peta
         mMap.getUiSettings().setZoomControlsEnabled(true);
@@ -101,17 +100,22 @@ public class LBS33 extends FragmentActivity implements OnMapReadyCallback {
     private class MyLocationListener implements LocationListener {
         @Override
         public void onLocationChanged(Location loc) {
-            // jika lokasi berubah, tampilkan pesan toast dengan lat dan long baru
-//            if (loc != null) {
-//                Toast.makeText(getBaseContext(), "Location changed:Lat: \"" + loc.getLatitude() + "\" Lng: \"" + loc.getLongitude(), Toast.LENGTH_SHORT).show();
-//
-//                // pindahkan kamera peta ke lokasi baru
-//                LatLng p = new LatLng(loc.getLatitude(), loc.getLongitude());
-//                if (mMap != null) {
-//                    mMap.moveCamera(CameraUpdateFactory.newLatLng(p));
-//                    mMap.animateCamera(CameraUpdateFactory.zoomTo(7));
-//                }
-//            }
+            // jika lokasi berubah dan toast belum ditampilkan, tampilkan pesan toast dengan lat dan long baru
+            if (!locationShown && loc != null) {
+                // menampilkan pesan toast dengan koordinat lokasi baru
+                Toast.makeText(getBaseContext(), "Location changed: Lat: " + loc.getLatitude() + " Lng: " + loc.getLongitude(), Toast.LENGTH_SHORT).show();
+
+                // pindahkan kamera peta ke lokasi baru
+                LatLng currentLocation = new LatLng(loc.getLatitude(), loc.getLongitude());
+                if (mMap != null) {
+                    // menambah marker di lokasi saat ini dan memperbesar kamera
+                    mMap.addMarker(new MarkerOptions().position(currentLocation).title("Lokasi Saat Ini"));
+                    mMap.moveCamera(CameraUpdateFactory.newLatLng(currentLocation));
+                    mMap.animateCamera(CameraUpdateFactory.zoomTo(15));
+                }
+                // tandai bahwa toast telah ditampilkan
+                locationShown = true;
+            }
         }
 
         @Override
