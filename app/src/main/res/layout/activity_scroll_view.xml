@@ -201,6 +201,16 @@
             android:text="Acara 35 - Acara 36 (Akses Sensor)"
             android:id="@+id/button19"/>
 
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 37 - Acara 40 (Penerapan JSON)"
+            android:id="@+id/button20"/>
+
+
 
     </LinearLayout>
 </ScrollView>
