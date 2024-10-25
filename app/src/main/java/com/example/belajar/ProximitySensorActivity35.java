@@ -55,7 +55,6 @@ public class ProximitySensorActivity35 extends AppCompatActivity implements Sens
         super.onBackPressed();
         sensorManager.unregisterListener(this, sensorProximity);
     }
-
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
         int sensorType = sensorEvent.sensor.getType();
