@@ -28,7 +28,7 @@ public class AllSensor35 extends AppCompatActivity {
         setContentView(R.layout.activity_all_sensor35);
 
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-        List<Sensor> sensorList = sensorManager.getSensorList(Sensor.TYPE_ALL);
+        List<Sensor> sensorList = sensorManager.getSensorList(Sensor.TYPE_ALL); //
         ListView listView = findViewById(R.id.lv_sensors);
         listView.setAdapter(new MySensorAdapter(this, R.layout.item_sensor35, sensorList));
     }
