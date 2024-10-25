@@ -18,7 +18,7 @@ public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaViewHolder> 
     @Override
     public MahasiswaViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
-        View view = layoutInflater.inflate(R.layout.list_item, parent, false);
+        View view = layoutInflater.inflate(R.layout.list_item37, parent, false);
         return new MahasiswaViewHolder(view);
     }
 
