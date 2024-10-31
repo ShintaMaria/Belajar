@@ -210,6 +210,26 @@
             android:text="Acara 37 - Acara 40 (Penerapan JSON)"
             android:id="@+id/button20"/>
 
+        <Button
+            android:layout_width="313dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="60dp"
+            android:text="Acara 41 - Acara 44 (Retrofit)"
+            android:id="@+id/button21"/>
+
+        <TextView
+            android:id="@+id/tamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="~Selesai~"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
 
 
     </LinearLayout>
