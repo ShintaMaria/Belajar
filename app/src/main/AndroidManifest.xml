@@ -31,9 +31,6 @@
             android:name=".MainActivity41"
             android:exported="false" />
         <activity
-            android:name=".LogoutActivity"
-            android:exported="false" />
-        <activity
             android:name=".LoginResponse"
             android:exported="false" />
         <activity
