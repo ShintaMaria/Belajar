@@ -42,6 +42,7 @@ public class ScrollView extends AppCompatActivity {
         button18 = findViewById(R.id.button18);
         button19 = findViewById(R.id.button19);
         button20 = findViewById(R.id.button20);
+        button21 = findViewById(R.id.button21);
         // Menambahkan aksi klik untuk masing-masing tombol
         buttonTwo.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -192,6 +193,14 @@ public class ScrollView extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ScrollView.this, MainActivity37.class);
+                startActivity(intent);
+            }
+        });
+
+        button21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ScrollView.this, LoginActivity.class);
                 startActivity(intent);
             }
         });
