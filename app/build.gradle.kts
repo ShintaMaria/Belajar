@@ -60,6 +60,7 @@ dependencies {
         implementation ("androidx.recyclerview:recyclerview:1.2.1")
         implementation(libs.transport.api)
     }
+    //Retrofit
     implementation("com.github.ivbaranov:materialfavoritebutton:0.1.5")
     implementation("com.github.bumptech.glide:glide:4.11.0")
     implementation("com.github.bumptech.glide:compiler:4.11.0")
