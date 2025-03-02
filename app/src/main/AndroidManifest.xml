@@ -90,7 +90,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBnBY-f5_MWOMUQUAa4QtYrNS3h8eheojE" />
+            android:value="AIzaSyCSeAAAM_dB_ObZj1I3pU24toufpAZUUcU" />
 
         <activity
             android:name=".LBS33"
