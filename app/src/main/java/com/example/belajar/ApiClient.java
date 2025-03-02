@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 // kelas untuk mengelola koneksi api menggunakan retrofit
 public class ApiClient {
     // url dasar untuk menghubungkan ke server
-    private static final String BASE_URL = "http://192.168.115.229/retrofitmobile/";
+    private static final String BASE_URL = "http://192.168.1.14/retrofitmobile/";
 
     // variabel retrofit sebagai instance tunggal (singleton) untuk koneksi
     private static Retrofit retrofit;
